@@ -1,0 +1,106 @@
+:root {
+    --c_logo1: #FFA400;
+    --c_logo2: #0ca0ad;
+}
+
+.logo {
+    width: 25%;
+    height: 25%;
+}
+
+.title{
+    margin-top: 15vh;
+}
+
+.bg-nav{
+    background-color: white;
+    box-shadow: 0px 0px 3px #FFA400;
+}
+
+#nav-link {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.2s;
+    color: black;
+}
+
+#nav-link:hover {
+    color: #FFA400;
+}
+
+.logo-footer {
+    width: 35%;
+    height: 35%;
+}
+
+.btn-card{
+    background-color: transparent;
+    border: 3px solid #FFA400;
+    color: #FFA400;
+}
+
+.btn-card:hover{
+    background-color: #FFA400;
+    color: white;
+    border: 3px solid #FFA400;
+}
+
+.ml-100{
+    margin-left: 50%;
+}
+
+footer{
+    background-color: #FFA400;
+    color: white;
+
+    p{
+        color: white;
+    }
+
+    label {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .btn-enviar {
+        transition: all 0.3s;
+        background-color: var(--c_logo2);
+        color: #ffff;
+    }
+    
+    .btn-enviar:hover {
+        background-color: var(--c_logo2);
+    }
+    
+    .btn-rede {
+        transition: all 0.3s;
+        background-color: var(--c_logo2);
+        color: #ffff;
+    }
+    
+    .btn-rede:hover {
+        background-color: #96faff;
+    }
+    
+    .bg-inprtante {
+        color: var(--c_logo2);
+    }
+    
+    .linha2 {
+        background-color: var(--c_logo2);
+        height: 3px;
+        width: 30%;
+    }
+    
+    .linha3 {
+        background-color: var(--c_logo2);
+        height: 2px;
+        width: 100%;
+    }
+    
+    #bg-dens {
+        text-decoration: none;
+        color: white;
+    }
+}
