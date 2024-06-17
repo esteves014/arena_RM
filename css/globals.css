@@ -8,11 +8,11 @@
     height: 25%;
 }
 
-.title{
+.title {
     margin-top: 15vh;
 }
 
-.bg-nav{
+.bg-nav {
     background-color: white;
     box-shadow: 0px 0px 3px #FFA400;
 }
@@ -33,74 +33,103 @@
     height: 35%;
 }
 
-.btn-card{
+.btn-card {
     background-color: transparent;
     border: 3px solid #FFA400;
     color: #FFA400;
 }
 
-.btn-card:hover{
+.btn-card:hover {
     background-color: #FFA400;
     color: white;
     border: 3px solid #FFA400;
 }
 
-.ml-100{
+.ml-100 {
     margin-left: 50%;
 }
 
-footer{
+footer {
     background-color: #FFA400;
     color: white;
+}
 
-    p{
-        color: white;
-    }
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
 
-    label {
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
-        color: white;
-    }
-    
-    .btn-enviar {
-        transition: all 0.3s;
-        background-color: var(--c_logo2);
-        color: #ffff;
-    }
-    
-    .btn-enviar:hover {
-        background-color: var(--c_logo2);
-    }
-    
-    .btn-rede {
-        transition: all 0.3s;
-        background-color: var(--c_logo2);
-        color: #ffff;
-    }
-    
-    .btn-rede:hover {
-        background-color: #96faff;
-    }
-    
-    .bg-inprtante {
-        color: var(--c_logo2);
-    }
-    
-    .linha2 {
-        background-color: var(--c_logo2);
-        height: 3px;
-        width: 30%;
-    }
-    
-    .linha3 {
-        background-color: var(--c_logo2);
-        height: 2px;
-        width: 100%;
-    }
-    
-    #bg-dens {
-        text-decoration: none;
-        color: white;
-    }
+.btn-enviar {
+    transition: all 0.3s;
+    background-color: var(--c_logo2);
+    color: #ffff;
+}
+
+.btn-enviar:hover {
+    background-color: var(--c_logo2);
+}
+
+.btn-rede {
+    transition: all 0.3s;
+    background-color: var(--c_logo2);
+    color: #ffff;
+}
+
+.btn-rede:hover {
+    background-color: #96faff;
+    color: black;
+}
+
+.bg-inprtante {
+    color: var(--c_logo2);
+}
+
+.linha2 {
+    background-color: var(--c_logo2);
+    height: 3px;
+    width: 30%;
+}
+
+.linha3 {
+    background-color: var(--c_logo2);
+    height: 2px;
+    width: 100%;
+}
+
+#bg-dens {
+    text-decoration: none;
+    color: white;
+}
+
+.ico {
+    color: var(--c_logo2);
+    font-size: 4.5vh;
+}
+
+.ico2 {
+    color: var(--c_logo2);
+}
+
+.contato {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 0px 15px black;
+    border-radius: 5px;
+    font-size: 21px;
+}
+
+.footer-link {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s;
+}
+
+.footer-link:hover {
+    text-decoration: none;
+    color: var(--c_logo2);
 }
