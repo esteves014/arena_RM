@@ -30,7 +30,7 @@
 
 .logo-footer {
     width: 35%;
-    height: 35%;
+    height: auto;
 }
 
 .btn-card {
@@ -118,8 +118,9 @@ label {
     width: 90%;
     justify-content: center;
     background-color: white;
-    box-shadow: 0px 0px 15px black;
+    border: 2px solid #17a2b8;
     border-radius: 5px;
+
     font-size: 21px;
 }
 

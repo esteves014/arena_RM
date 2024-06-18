@@ -54,6 +54,7 @@ hr {
 
 .cont_top {
     margin: auto;
+    width: 60%;
 }
 
 video {
@@ -64,7 +65,7 @@ video {
 }
 
 .conteudo{
-    width: 75%;
+    width: 60%;
     margin: auto;
     height: max-content;
     background-color: rgba(255, 255, 255, 0.75);
