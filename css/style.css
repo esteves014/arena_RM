@@ -53,24 +53,25 @@ video {
     z-index: -1;
     height: auto;
     filter: brightness(.6);
+    height: auto;
 }
 
 .conteudo {
     width: 75%;
     margin: auto;
     height: max-content;
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255);
     backdrop-filter: blur(5px);
     border-radius: 10px;
     border: 3px solid white;
 
-    ul{
+    ul {
 
-        li{
+        li {
             list-style: none;
             text-align: left;
 
-            i{
+            i {
                 color: var(--c_logo1);
             }
         }
@@ -98,6 +99,7 @@ hr {
     width: 50vw;
     margin: auto;
     display: flex;
+    padding: 20px;
 }
 
 .cont_card {
@@ -115,7 +117,7 @@ hr {
 
 .cont_top {
     margin: auto;
-    width: 60%;
+    width: 80%;
 }
 
 .contato {
@@ -145,12 +147,12 @@ hr {
     color: white;
     transition: all 0.2s;
 
-    i{
+    i {
         color: var(--c_logo2);
     }
 }
 
-.center{
+.center {
     width: max-content;
     margin: auto;
 }
@@ -207,4 +209,27 @@ footer {
 
 .ml-100 {
     margin-left: 50%;
+}
+
+.aiai {
+    color: white;
+    text-decoration: none;
+}
+
+#home {
+    position: relative;
+}
+
+.carousel-item {
+    animation: 1s ease-in fade-out;
+}
+
+@keyframes fade-out {
+    0% {
+        filter: opacity(0%);
+    }
+
+    100% {
+        filter: opacity(100%);
+    }
 }
