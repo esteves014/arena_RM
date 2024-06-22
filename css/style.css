@@ -57,7 +57,7 @@ video {
 }
 
 .conteudo {
-    width: 75%;
+    width: 92%;
     margin: auto;
     height: max-content;
     background-color: rgba(255, 255, 255);
@@ -96,7 +96,7 @@ hr {
 
 .logo_top {
     height: auto;
-    width: 50vw;
+    width: 60%;
     margin: auto;
     display: flex;
     padding: 20px;
@@ -118,6 +118,19 @@ hr {
 .cont_top {
     margin: auto;
     width: 80%;
+
+    ul {
+
+        padding: 0;
+        margin: 0;
+
+        li {
+            word-break: normal;
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+        }
+    }
 }
 
 .contato {
@@ -152,10 +165,7 @@ hr {
     }
 }
 
-.center {
-    width: max-content;
-    margin: auto;
-}
+
 
 .btn-enviar {
     transition: all 0.3s;
