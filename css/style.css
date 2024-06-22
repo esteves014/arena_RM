@@ -57,7 +57,7 @@ video {
 }
 
 .conteudo {
-    width: 92%;
+    width: 95%;
     margin: auto;
     height: max-content;
     background-color: rgba(255, 255, 255);
@@ -75,6 +75,12 @@ video {
                 color: var(--c_logo1);
             }
         }
+    }
+}
+
+@media (max-width: 600px){
+    .conteudo {
+        width: 92%;
     }
 }
 
@@ -103,9 +109,11 @@ hr {
 }
 
 .cont_card {
+    margin: auto;
+    width: 80%;
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
     flex-wrap: wrap;
 }
 
