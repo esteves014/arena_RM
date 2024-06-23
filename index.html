@@ -22,6 +22,7 @@
 
     <link rel="shortcut icon" href="img/LOGO/brasão.png" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -29,7 +30,7 @@
 <body>
 
     <nav class="navbar navbar-expand-lg">
-        <img src="img/LOGO/logo.jpg" alt="Logo Arena RM">
+        <img src="img/LOGO/logo.jpg" alt="Logo Arena RM" loading="lazy">
         <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
             aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
             <span class="navbar-toggler-icon"></span>
@@ -55,9 +56,10 @@
     </nav>
 
     <section id="home">
-        <video src="video/Arena_RM.mp4" autoplay loop muted></video>
+        
+        <video src="video/Arena_RM.mp4" autoplay loop muted loading="eager"></video>
 
-        <img src="img/LOGO/logo_pag_ini.png" class="logo_top">
+        <img src="img/LOGO/logo_pag_ini.png" class="logo_top" loading="eager">
 
         <div class="conteudo">
             <div class="col-12">
