@@ -4,5 +4,5 @@ Este projeto é um trabalho da faculdade onde o objetivo era refazer o site de u
 
 ## 🚀 Tecnologias Utilizadas
 
--**HTML**-Estrutura da página
--**CSS**-Estilização e layout responsivo
+- **HTML**-Estrutura da página
+- **CSS**-Estilização e layout responsivo
