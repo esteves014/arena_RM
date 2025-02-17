@@ -1,4 +1,8 @@
-﻿# arena-rogerio-margutti
+# 🎾 Blog Arena Rogério Margutti
 
+Este projeto é um trabalho da faculdade onde o objetivo era refazer o site de uma empresa, todas as informações foram retiradas do próprio site da arena.
 
-Esse foi um projeto desenvolvido por: Vitor Miguel, Pedro Akira, Anderson, Rafael Fassa
+## 🚀 Tecnologias Utilizadas
+
+-**HTML**-Estrutura da página
+-**CSS**-Estilização e layout responsivo
